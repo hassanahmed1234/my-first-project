@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    color: black;
+}
+.main{
+    background-image: url(https://t3.ftcdn.net/jpg/01/64/11/80/360_F_164118089_2gXk0GiInKPKmAvKf2XKGFPeBdrd8so1.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    min-height: 70vh
+}
+.container{
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+}
+.navlist{
+    color: aliceblue;
+}
+.btn{
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: auto;
+    padding: 12px 20px;
+    color: aquamarine;
+}
+.btn-second{
+    background: rgb(161, 161, 74);
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    outline: auto;
+    outline-color: rgb(0, 0, 0);
+    padding: 12px 20px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+    color: azure;
+}
+.intro-heading{
+    font-size: 50px;
+    color: #7c5d5d;
+}
+.main-heading{
+    font-size: 80px;
+    margin-top: 20px;
+    color: #eee2e2;
+   
+}
+.para{
+    margin-bottom: 10px;
+    max-width: 250px;
+    color: black;
+}
+.section-title{
+    font-size: 50px;
+    text-align: center;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    border: 10px;
+    background-color: rgb(80, 80, 59);
+    margin: auto;
+}
+.services{
+    margin-top: 40px;
+    display: flex;
+    gap: 15px ;
+    justify-content: center;
+}
+.ser-img{
+    transform: scale(1.2);
+}
